@@ -1,5 +1,5 @@
 body {
-
+	color: white;
 }
 
 .container-fluid {
@@ -15,7 +15,7 @@ body {
 }
 
 .front-image {
-	height: 100vh;
+	height: 70vh;
 	background: url("images/turntable-12.jpg") no-repeat center center;
 	background-size: 100% 100%;
 }
@@ -57,4 +57,11 @@ body {
 .col-md-3 {
 	padding: 0;
 	border: 1px solid red;
+}
+
+
+.about-image {
+	height: 70vh;
+	background: url("images/california-23.jpg") no-repeat center center;
+	background-size: 100% 100%;
 }
