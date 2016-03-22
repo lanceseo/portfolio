@@ -65,3 +65,35 @@ body {
 	background: url("images/california-23.jpg") no-repeat center center;
 	background-size: 100% 100%;
 }
+
+.pro-pic {
+	height: 350px;
+	background-color: orange;
+	padding: 8% 0 10% 0;
+}
+
+.pro-pic img {
+	border-radius: 50%;
+}
+
+.skills-box {
+	height: 350px;
+	background-color: black;
+	padding: 6% 0 10% 0;
+}
+
+.skills-box div {
+	display: inline-block;
+}
+
+.exp-box {
+
+	text-align: center;
+	padding: 15px 50px 15px;
+
+}
+
+.exp-box div {
+	display: inline-block;
+	text-align: left;
+}
