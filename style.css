@@ -36,6 +36,9 @@ body {
 	height: 100%;
 	padding: 3%;
 }
+.form-group.well {
+	width: 90%;
+}
 .form-control {
 	width: 80%;
 }
