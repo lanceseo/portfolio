@@ -6,6 +6,7 @@ body {
 	padding: 0;
 }
 
+/* header css */
 .navbar {
 	padding-left: 20px;
 	padding-right: 20px;
@@ -14,14 +15,40 @@ body {
 	box-shadow: 0 5px 10px #939090;
 }
 
+/* Footer css */
+.footer-box {
+	height: 400px;
+}
+.prof-links {
+	background-color: #FFA500;
+	height: 100%;
+	padding: 4%;
+}
+.prof-links li {
+	margin: 5px;
+}
+.contact-me {
+	background-color: #fff;
+	color: #000;
+	height: 100%;
+	padding: 3%;
+}
+.form-control {
+	width: 80%;
+}
+input {
+	width: 400px;
+}
+
+
+/* main content css */
 .front-image {
 	height: 70vh;
 	background: url("images/turntable-12.jpg") no-repeat center center;
 	background-size: 100% 100%;
 }
-
 .mid {
-		background-color: #010101;
+	background-color: #010101;
 	padding-top: 40px;
 	padding-bottom: 40px;
 }
@@ -35,30 +62,13 @@ body {
 	background-color: #010101;
 	text-align: center;
 }
-
 .demo-box img {
 	width: 100%;
 }
-
-.footer-box {
-	height: 250px;
-	background-color: #222;
-}
-
-.footer-box .col-md-4:first-child {
-	color: #939090;
-}
-
-.footer-box .col-md-4:nth-child(2) {
-	height: 100%;
-	background-color: #939090;
-}
-
 .col-md-3 {
 	padding: 0;
 	border: 1px solid red;
 }
-
 
 .about-image {
 	height: 70vh;
@@ -87,7 +97,6 @@ body {
 }
 
 .exp-box {
-
 	text-align: center;
 	padding: 15px 50px 15px;
 
@@ -97,3 +106,4 @@ body {
 	display: inline-block;
 	text-align: left;
 }
+
