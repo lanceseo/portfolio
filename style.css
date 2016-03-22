@@ -24,8 +24,11 @@ body {
 	height: 100%;
 	padding: 4%;
 }
+.prof-links ul {
+	margin-top: 30px;
+}
 .prof-links li {
-	margin: 5px;
+	margin: 10px;
 }
 .contact-me {
 	background-color: #fff;
@@ -37,26 +40,33 @@ body {
 	width: 80%;
 }
 input {
-	width: 400px;
+	width: 80%;
+}
+.foot-bg1 {
+	background-color: grey;
+}
+.foot-bg2 {
+	background-color: orange;
 }
 
-
-/* main content css */
+/* main top images */
 .front-image {
 	height: 70vh;
 	background: url("images/turntable-12.jpg") no-repeat center center;
 	background-size: 100% 100%;
 }
+.about-image {
+	height: 70vh;
+	background: url("images/california-23.jpg") no-repeat center center;
+	background-size: 100% 100%;
+}
+
+/* main contents */
 .mid {
 	background-color: #010101;
 	padding-top: 40px;
 	padding-bottom: 40px;
 }
-
-/*.mid2 {
-	height: 40px;
-	background-color: #5e5d5d;
-}*/
 
 .demo-box {
 	background-color: #010101;
@@ -70,18 +80,11 @@ input {
 	border: 1px solid red;
 }
 
-.about-image {
-	height: 70vh;
-	background: url("images/california-23.jpg") no-repeat center center;
-	background-size: 100% 100%;
-}
-
 .pro-pic {
 	height: 350px;
 	background-color: orange;
 	padding: 8% 0 10% 0;
 }
-
 .pro-pic img {
 	border-radius: 50%;
 }
@@ -91,7 +94,6 @@ input {
 	background-color: black;
 	padding: 6% 0 10% 0;
 }
-
 .skills-box div {
 	display: inline-block;
 }
@@ -101,7 +103,6 @@ input {
 	padding: 15px 50px 15px;
 
 }
-
 .exp-box div {
 	display: inline-block;
 	text-align: left;
