@@ -1,113 +1,14 @@
 body {
-	color: white;
+	background-color: #62b0ff;
+/*	color: #415172;*/
+	font-family: 'Montserrat', sans-serif;
 }
 
-.container-fluid {
-	padding: 0;
+/*.row {
+	border: 1px solid #415172;
+}*/
+.well {
+	background-color: initial;
+	border-radius: 0;
+	border: 1px solid #60759f;
 }
-
-/* header css */
-.navbar {
-	padding-left: 20px;
-	padding-right: 20px;
-	margin-bottom:0; 
-	border-radius:0;
-	box-shadow: 0 5px 10px #939090;
-}
-
-/* Footer css */
-.footer-box {
-	height: 400px;
-}
-.prof-links {
-	background-color: #FFA500;
-	height: 100%;
-	padding: 4%;
-}
-.prof-links ul {
-	margin-top: 30px;
-}
-.prof-links li {
-	margin: 10px;
-}
-.contact-me {
-	background-color: #fff;
-	color: #000;
-	height: 100%;
-	padding: 3%;
-}
-.form-group.well {
-	width: 90%;
-}
-.form-control {
-	width: 80%;
-}
-input {
-	width: 80%;
-}
-.foot-bg1 {
-	background-color: grey;
-}
-.foot-bg2 {
-	background-color: orange;
-}
-
-/* main top images */
-.front-image {
-	height: 70vh;
-	background: url("images/turntable-12.jpg") no-repeat center center;
-	background-size: 100% 100%;
-}
-.about-image {
-	height: 70vh;
-	background: url("images/california-23.jpg") no-repeat center center;
-	background-size: 100% 100%;
-}
-
-/* main contents */
-.mid {
-	background-color: #010101;
-	padding-top: 40px;
-	padding-bottom: 40px;
-}
-
-.demo-box {
-	background-color: #010101;
-	text-align: center;
-}
-.demo-box img {
-	width: 100%;
-}
-.col-md-3 {
-	padding: 0;
-	border: 1px solid red;
-}
-
-.pro-pic {
-	height: 350px;
-	background-color: orange;
-	padding: 8% 0 10% 0;
-}
-.pro-pic img {
-	border-radius: 50%;
-}
-
-.skills-box {
-	height: 350px;
-	background-color: black;
-	padding: 6% 0 10% 0;
-}
-.skills-box div {
-	display: inline-block;
-}
-
-.exp-box {
-	text-align: center;
-	padding: 15px 50px 15px;
-
-}
-.exp-box div {
-	display: inline-block;
-	text-align: left;
-}
-
