@@ -1,14 +1,29 @@
 body {
-	background-color: #62b0ff;
-/*	color: #415172;*/
+/*	background-image: url('images/slbg.jpg');
+	background-attachment: fixed;*/
 	font-family: 'Montserrat', sans-serif;
+}
+a {
+	color: #e84236;
 }
 
 /*.row {
 	border: 1px solid #415172;
 }*/
-.well {
+.well, .well-lg {
 	background-color: initial;
 	border-radius: 0;
 	border: 1px solid #60759f;
+	min-height: 250px;
+	margin-top: 70px;
+	box-shadow: 7px 7px 3px #888888;
 }
+
+.row {
+	border-bottom: 1px solid #415172;
+}
+
+.nav-pills {
+	border: 1px solid #60759f;
+}
+
