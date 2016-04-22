@@ -1,6 +1,6 @@
 body {
-/*	background-image: url('images/slbg.jpg');
-	background-attachment: fixed;*/
+	background-image: url('images/slbg.jpg');
+	background-attachment: fixed;
 	font-family: 'Montserrat', sans-serif;
 }
 a {
@@ -25,5 +25,17 @@ a {
 
 .nav-pills {
 	border: 1px solid #60759f;
+}
+
+.ipic {
+	border-radius: 50%;
+	margin-top: 30px;
+	margin-left: 30px;
+}
+.aboutDesc {
+	margin-top: 30px;
+}
+.clogo {
+	width: 25px;
 }
 
