@@ -68,8 +68,21 @@ body {
 	font-size: 1.5em;
 }
 
-
-
+/* Skills section */
+.skills {
+	padding-top: 60px;
+	padding-bottom: 20px;
+}
+.skills div {
+	border-bottom: none;
+}
+.techlogos {
+	margin-top: 25px;
+}
+.techlogos img {
+	width: 80px;
+	margin: 10px;
+}
 
 
 
