@@ -1,29 +1,77 @@
-.container {
-	border: 1px solid blue;
+body {
+	background-color: #F9F9F9;
+	font-family: 'Open Sans', Arial, sans-serif;
+	font-size: 14px;
 }
-.row {
-	border: 1px solid green;
-}
-
 .row > div {
-	border: 1px solid orange;
+	background-color: #fff;
+	border: 1px solid #e5e5e5;
+	border-top: none;
 }
 
-
-.imgmain > div {
-	padding: 0;
+/* Logo styling */
+.logo {
+	padding: 27px 0 27px 0;
+}
+.logo span {
+	font-size: 130%;
+}
+.fn {
+	position: relative;
+	top: -12px;
+}
+.ln {
+	position: relative;
+	right: -5px;
+	bottom: -10px;
 }
 
-img {
-	max-width: 100%;
-	height: auto;
-	border: 1px solid grey;
-	padding: 1px;
-}
-
+/* Menu styling */
 .menu {
+	padding: 15px;
 	box-shadow: 0 2px 3px #888888;
-	height: 50px;
+	text-align: center;
 }
+.nav-pills > li {
+  float: none;
+  display: inline-block;
+}
+.nav > li > a:hover,
+.nav > li > a:focus {
+  background-color: #00ff00;
+}
+
+/* Main image styling */
+.imgmain {
+	padding: 0;
+	box-shadow: 1px 1px 2px #888888;
+}
+.mainpic {
+	width: 100%;
+}
+
+/* About section */
+.about {
+	padding: 30px 0 30px 10%;
+}
+.about div {
+	display: inline-block;
+}
+.ipic {
+	border-radius: 50%;
+	width: 100px;
+}
+.aboutls {
+	position: relative;
+	top: -15px;
+	left: 20px;
+	font-size: 1.5em;
+}
+
+
+
+
+
+
 
 
