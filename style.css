@@ -14,9 +14,12 @@ body {
 	padding: 27px 0 27px 0;
 }
 .logo span {
-	font-size: 130%;
+	font-size: 125%;
 }
-.fn {
+.txtcolor {
+	color: #f7d13e;
+}
+/*.fn {
 	position: relative;
 	top: -12px;
 }
@@ -24,7 +27,7 @@ body {
 	position: relative;
 	right: -5px;
 	bottom: -10px;
-}
+}*/
 
 /* Menu styling */
 .menu {
@@ -84,6 +87,7 @@ body {
 
 /* Skills section */
 .skills {
+	font-size: 15px;
 	margin-top: 10px;
 	padding-top: 60px;
 	padding-bottom: 30px;
