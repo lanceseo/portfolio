@@ -36,15 +36,15 @@ body {
   float: none;
   display: inline-block;
 }
-.nav > li > a:hover,
+/*.nav > li > a:hover,
 .nav > li > a:focus {
   background-color: #00ff00;
-}
+}*/
 
 /* Main image styling */
 .imgmain {
 	padding: 0;
-	box-shadow: 1px 1px 2px #888888;
+	box-shadow: 1px 2px 4px #888888;
 }
 .mainpic {
 	width: 100%;
@@ -53,6 +53,7 @@ body {
 /* About section */
 .about {
 	padding: 30px 0 30px 10%;
+	box-shadow: 0 2px 4px #888888;
 }
 .about div {
 	display: inline-block;
@@ -70,8 +71,10 @@ body {
 
 /* Skills section */
 .skills {
+	margin-top: 10px;
 	padding-top: 60px;
-	padding-bottom: 20px;
+	padding-bottom: 30px;
+	box-shadow: 0 2px 4px #888888;
 }
 .skills div {
 	border-bottom: none;
@@ -80,11 +83,41 @@ body {
 	margin-top: 25px;
 }
 .techlogos img {
-	width: 80px;
+	width: 70px;
 	margin: 10px;
 }
 
+/* Projects section */
+.proj1 {
+	margin-top: 10px;
+	padding-top: 60px;
+	border-bottom: none;
+}
+.projpic {
+	width: 100%;
+}
+.proj1 .row > div, .proj2 .row > div {
+	border: none;
+}
+.proj2 {
+	padding-bottom: 40px;
+	box-shadow: 0 2px 4px #888888;
+}
 
+/* Experience section */
+.exp {
+	margin-top: 10px;
+	padding-top: 60px;
+	padding-bottom: 40px;
+	box-shadow: 0 2px 4px #888888;
+}
 
+/* Contact section */
+.contact {
+	margin-top: 10px;
+	padding-top: 60px;
+	padding-bottom: 40px;
+	box-shadow: 0 2px 4px #888888;
+}
 
 
