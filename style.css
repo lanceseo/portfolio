@@ -52,39 +52,17 @@ body {
 
 /* About section */
 .about {
-	padding: 30px 0 30px 10%;
+	padding-top: 30px;
+	padding-bottom: 30px;
 	box-shadow: 0 2px 4px #888888;
-}
-.about div {
-	display: inline-block;
+	font-size: 13px;
 }
 .ipic {
 	border-radius: 50%;
 	width: 100px;
 }
-.aboutls {
-	position: relative;
-	top: -15px;
-	left: 20px;
-	font-size: 1.5em;
-}
-
-/* Skills section */
-.skills {
-	margin-top: 10px;
-	padding-top: 60px;
-	padding-bottom: 30px;
-	box-shadow: 0 2px 4px #888888;
-}
-.skills div {
-	border-bottom: none;
-}
-.techlogos {
-	margin-top: 25px;
-}
-.techlogos img {
-	width: 70px;
-	margin: 10px;
+.about .row div {
+	border: none;
 }
 
 /* Projects section */
@@ -104,6 +82,24 @@ body {
 	box-shadow: 0 2px 4px #888888;
 }
 
+/* Skills section */
+.skills {
+	margin-top: 10px;
+	padding-top: 60px;
+	padding-bottom: 30px;
+	box-shadow: 0 2px 4px #888888;
+}
+.skills div {
+	border: none;
+}
+.techlogos {
+	margin-top: 25px;
+}
+.techlogos img {
+	width: 65px;
+	margin: 7px;
+}
+
 /* Experience section */
 .exp {
 	margin-top: 10px;
@@ -121,3 +117,13 @@ body {
 }
 
 
+@media only screen and (max-width: 768px) {
+	.skills .row:first-child div {
+	padding-bottom: 10px;
+	border-top: 1px solid #e5e5e5;
+	}
+	.techlogos img {
+		width: 40px;
+		margin: 5px;
+	}
+}
