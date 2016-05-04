@@ -9,9 +9,13 @@ body {
 	border-top: none;
 }
 
+
 /* Logo styling */
 .logo {
 	padding: 27px 0 27px 0;
+}
+.logo h1 {
+	display: inline-block;
 }
 .logo span {
 	font-size: 125%;
@@ -29,20 +33,36 @@ body {
 	bottom: -10px;
 }*/
 
+
 /* Menu styling */
 .menu {
-	padding: 15px;
+	padding: 10px;
 	box-shadow: 0 2px 3px #888888;
-	text-align: center;
 }
-.nav-pills > li {
+.menu > .row > div {
+	border: none;
+}
+.menu > .row > div:nth-child(2) {
+	border-left: 1px solid #c8c9cb;
+}
+.nav > li {
   float: none;
   display: inline-block;
 }
-/*.nav > li > a:hover,
+.nav > li > a {
+	color: #4f5f70;
+	padding-right: 7px;
+	padding-left: 7px;
+}
+.nav > li > a:hover,
 .nav > li > a:focus {
-  background-color: #00ff00;
-}*/
+  background-color: #c8c9cb;
+}
+.clogo {
+	width: 23px;
+	border-radius: 50%;
+}
+
 
 /* Main image styling */
 .imgmain {
@@ -52,6 +72,7 @@ body {
 .mainpic {
 	width: 100%;
 }
+
 
 /* About section */
 .about {
@@ -67,6 +88,7 @@ body {
 .about .row div {
 	border: none;
 }
+
 
 /* Projects section */
 .proj1 {
@@ -84,6 +106,7 @@ body {
 	padding-bottom: 40px;
 	box-shadow: 0 2px 4px #888888;
 }
+
 
 /* Skills section */
 .skills {
@@ -104,6 +127,7 @@ body {
 	margin: 7px;
 }
 
+
 /* Experience section */
 .exp {
 	margin-top: 10px;
@@ -111,6 +135,7 @@ body {
 	padding-bottom: 40px;
 	box-shadow: 0 2px 4px #888888;
 }
+
 
 /* Contact section */
 .contact {
