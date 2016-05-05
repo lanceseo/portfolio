@@ -8,7 +8,6 @@ a {
 }
 .row > div {
 	background-color: #fff;
-	#border: 1px solid #e5e5e5;
 	border-top: none;
 }
 
@@ -142,7 +141,7 @@ a {
 .exp {
 	padding-bottom: 40px;
 	box-shadow: 0 2px 4px #888888;
-	margin-bottom: 20px;
+	margin-bottom: 40px;
 }
 .exp ul p {
 	color: #444444;
@@ -155,6 +154,31 @@ a {
 	background-color: #E5E5E5;
 	border-radius: 5px;
 }
+
+
+/* Footer section */
+.row > .footer {
+	color: #fff;
+	background-color: #4A4A4A;
+}
+.footer {
+	font-size: 13px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	box-shadow: 0 2px 4px #888888;
+	margin-bottom: 20px;
+}
+.footer div {
+	display: inline-block;
+}
+.footer div:first-child {
+	margin-right: 15px;
+}
+.footer ul li a {
+	padding-right: 1px;
+	padding-left: 2px;
+}
+
 
 /* Skills section at mobile */
 @media only screen and (max-width: 768px) {
