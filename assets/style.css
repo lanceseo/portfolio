@@ -8,7 +8,7 @@ a {
 }
 .row > div {
 	background-color: #fff;
-	border: 1px solid #e5e5e5;
+	#border: 1px solid #e5e5e5;
 	border-top: none;
 }
 
@@ -16,6 +16,7 @@ a {
 /* Logo styling */
 .logo {
 	padding: 27px 0 27px 0;
+	border-bottom: 1px solid #e5e5e5;
 }
 .logo h1 {
 	display: inline-block;
@@ -24,7 +25,7 @@ a {
 	font-size: 125%;
 }
 .txtcolor {
-	color: #f7d13e;
+	color: #FFA400;
 }
 
 
@@ -32,9 +33,6 @@ a {
 .menu {
 	padding: 10px;
 	box-shadow: 0 2px 3px #888888;
-}
-.menu > .row > div {
-	border: none;
 }
 .menu > .row > div:nth-child(2) {
 	border-left: 1px solid #c8c9cb;
@@ -74,6 +72,7 @@ a {
 	padding-bottom: 30px;
 	box-shadow: 0 2px 4px #888888;
 	font-size: 13px;
+	margin-bottom: 30px;
 }
 .ipic {
 	border-radius: 50%;
@@ -84,22 +83,31 @@ a {
 }
 
 
+/* Section label styling */
+.seclabel {
+	margin-bottom: 30px;
+	padding-left: 0;
+}
+.seclabel span {
+	padding: 10px 15px;
+	color: #1049A9;
+	background-color: #FFA400;
+}
+
+
 /* Projects section */
 .proj1 {
 	margin-top: 10px;
-	padding-top: 60px;
-	border-bottom: none;
+	box-shadow: 0 2px 4px #888888;
 }
 .projpic {
 	width: 100%;
 	height: 230px;
 }
-.proj1 .row > div, .proj2 .row > div {
-	border: none;
-}
 .proj2 {
 	padding-bottom: 40px;
 	box-shadow: 0 2px 4px #888888;
+	margin-bottom: 40px;
 }
 .projlinks li {
 	margin-top: 10px;
@@ -117,13 +125,9 @@ a {
 .skills {
 	color: #444444;
 	font-size: 15px;
-	margin-top: 10px;
-	padding-top: 50px;
 	padding-bottom: 40px;
 	box-shadow: 0 2px 4px #888888;
-}
-.skills div {
-	border: none;
+	margin-bottom: 40px;
 }
 .techlogos {
 	margin-top: 25px;
@@ -136,16 +140,15 @@ a {
 
 /* Experience section */
 .exp {
-	margin-top: 10px;
-	margin-bottom: 20px;
-	padding-top: 60px;
 	padding-bottom: 40px;
 	box-shadow: 0 2px 4px #888888;
+	margin-bottom: 20px;
 }
 .exp ul p {
 	color: #444444;
 }
 .well.note {
+	padding-left: 30px;
 	color: #000;
 	box-shadow: none;
 	border: none;
@@ -153,20 +156,11 @@ a {
 	border-radius: 5px;
 }
 
-
-/* Contact section */
-.contact {
-	margin-top: 10px;
-	padding-top: 60px;
-	padding-bottom: 40px;
-	box-shadow: 0 2px 4px #888888;
-}
-
-
+/* Skills section at mobile */
 @media only screen and (max-width: 768px) {
-	.skills .row:first-child div {
+	.skills .row:nth-child(2) div {
 	padding-bottom: 10px;
-	border-top: 1px solid #e5e5e5;
+	border-bottom: 1px solid #e5e5e5;
 	}
 	.techlogos img {
 		width: 40px;
