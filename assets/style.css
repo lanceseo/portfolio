@@ -2,6 +2,7 @@ body {
 	background-color: #F9F9F9;
 	font-family: 'Open Sans', Arial, sans-serif;
 	font-size: 14px;
+	color: #01354A;
 }
 a {
 	color: #4f5f70;
@@ -117,8 +118,8 @@ a {
 .skills {
 	font-size: 15px;
 	margin-top: 10px;
-	padding-top: 60px;
-	padding-bottom: 30px;
+	padding-top: 50px;
+	padding-bottom: 40px;
 	box-shadow: 0 2px 4px #888888;
 }
 .skills div {
