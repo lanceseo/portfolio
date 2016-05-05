@@ -16,4 +16,8 @@ $(document).ready(function(){
         }, 500);
     });
 
+    var clipboard = new Clipboard('.btn');
+    clipboard.on('success', function(e) {
+        console.log("Copied to clipboard");
+    });
 });
