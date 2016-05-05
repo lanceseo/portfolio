@@ -2,7 +2,6 @@ body {
 	background-color: #F9F9F9;
 	font-family: 'Open Sans', Arial, sans-serif;
 	font-size: 14px;
-	color: #01354A;
 }
 a {
 	color: #4f5f70;
@@ -93,7 +92,7 @@ a {
 }
 .projpic {
 	width: 100%;
-	min-height: 230px;
+	height: 230px;
 }
 .proj1 .row > div, .proj2 .row > div {
 	border: none;
@@ -116,6 +115,7 @@ a {
 
 /* Skills section */
 .skills {
+	color: #444444;
 	font-size: 15px;
 	margin-top: 10px;
 	padding-top: 50px;
@@ -137,9 +137,20 @@ a {
 /* Experience section */
 .exp {
 	margin-top: 10px;
+	margin-bottom: 20px;
 	padding-top: 60px;
 	padding-bottom: 40px;
 	box-shadow: 0 2px 4px #888888;
+}
+.exp ul p {
+	color: #444444;
+}
+.well.note {
+	color: #000;
+	box-shadow: none;
+	border: none;
+	background-color: #E5E5E5;
+	border-radius: 5px;
 }
 
 
