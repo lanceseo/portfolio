@@ -50,8 +50,8 @@ a {
   background-color: #c8c9cb;
 }
 .clogo {
-	#width: 23px;
-	#border-radius: 50%;
+	width: 23px;
+	border-radius: 50%;
 }
 
 
@@ -322,5 +322,5 @@ transition-delay:.2s;
 }
 #return-to-top:hover i {
     color: #fff;
-    top: 7px;
+    top: 10px;
 }
