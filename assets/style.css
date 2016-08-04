@@ -192,6 +192,14 @@ a {
 	}
 }
 
+.guide {
+	color: #fff;
+	position: relative;
+	top: -100px;
+}
+.hovereffect:hover .guide {
+	visibility: hidden;
+}
 
 /*=== img hover effect ===*/
 .hovereffect {
